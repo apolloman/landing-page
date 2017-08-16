@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+
+.showPage {
+  background: url(../images/barcelona.jpg)center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.showPage h1 {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.showPage p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.btn-1 {
+  background: #ff9966;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin-top: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.btn-1:hover {
+  background: #cc4400;
+}
+
+#section-1 {
+   text-align: center;
+   padding: 40px;
+}
+
+#section-1 h1 {
+  margin-bottom: 20px;
+}
+
+#section-2 {
+  margin-bottom: 20px;
+}
+
+#section-2 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flex-columns {
+  display: flex;
+  padding: 20px;
+}
+
+footer {
+  min-height: 150px;
+  background: #f6f6f6;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
